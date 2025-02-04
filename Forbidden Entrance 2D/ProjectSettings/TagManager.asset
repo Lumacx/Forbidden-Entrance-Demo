@@ -15,7 +15,7 @@ TagManager:
   - Player
   - Background
   - Foreground
-  - 
+  - Platform
   - 
   - 
   - 
@@ -39,11 +39,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Sky
+    uniqueID: 2786186429
     locked: 0
   - name: Background
     uniqueID: 993940323
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Player
     uniqueID: 3181822317

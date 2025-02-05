@@ -452,6 +452,8 @@
 "Assets/mammoth Tiles/Free Scenes/MoveBackground.cs"
 "Assets/Scripts/BackgroundController.cs"
 "Assets/Scripts/HighlightInteraction.cs"
+"Assets/Scripts/Killplayer-Respawn.cs"
+"Assets/Scripts/MainCameraSmooth.cs"
 "Assets/Scripts/MoveBackgroundF2.cs"
 "Assets/Scripts/PlayerDash.cs"
 "Assets/Scripts/PlayerMovement.cs"

@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Landing Page background v3_0: 6171135159374876491
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -9,6 +9,16 @@
     "E:\\Unity Files\\6000.0.35f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.unity.behavior@1.0.8": {
+      "name": "com.unity.behavior",
+      "displayName": "Behavior",
+      "resolvedPath": "C:\\Forbidden-Entrance-Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.behavior@9aa96a37293c",
+      "fingerprint": "9aa96a37293c0237b05acfd1cf974d19654c204e",
+      "editorCompatibility": "6000.0.16f1",
+      "version": "1.0.8",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.cinemachine@3.1.3": {
       "name": "com.unity.cinemachine",
       "displayName": "Cinemachine",
@@ -560,6 +570,7 @@
       "source": "registry",
       "testable": false
     },
+<<<<<<< Updated upstream
     "com.unity.searcher@4.9.2": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
@@ -570,6 +581,8 @@
       "source": "registry",
       "testable": false
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.burst@1.8.18": {
       "name": "com.unity.burst",
       "displayName": "Burst",
@@ -577,6 +590,36 @@
       "fingerprint": "616862665d8c8ffe643d505aebb5de2ee73b0ab0",
       "editorCompatibility": "2020.3.0a1",
       "version": "1.8.18",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.dt.app-ui@2.0.0-pre.16": {
+      "name": "com.unity.dt.app-ui",
+      "displayName": "App UI",
+      "resolvedPath": "C:\\Forbidden-Entrance-Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.dt.app-ui@166eda91cea7",
+      "fingerprint": "166eda91cea758dc5bc85bcb64d443e46ac29458",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "2.0.0-pre.16",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.nuget.newtonsoft-json@3.2.1": {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "displayName": "Newtonsoft Json",
+      "resolvedPath": "C:\\Forbidden-Entrance-Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@74deb55db2a0",
+      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "3.2.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.searcher@4.9.2": {
+      "name": "com.unity.searcher",
+      "displayName": "Searcher",
+      "resolvedPath": "C:\\Forbidden-Entrance-Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.searcher@90d011a70418",
+      "fingerprint": "90d011a70418fd5b0f4b8e86df39444d2af228dd",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.2",
       "source": "registry",
       "testable": false
     },

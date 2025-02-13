@@ -1,5 +1,9 @@
 using System;
+using System.Collections;
 using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Linq.Expressions;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -11,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Jump Settings")]
     public float maxMultiplier = 1.5f;         // Total jump force multiplier when holding jump
     public float maxHoldTime = 0.5f;           // Maximum duration for additional force application
+    //public int maxJumps = 2;           // Maximum jumps in sequence
+    //int jumpsremaining;             // Jumps remaining in sequence
         
     private float jumpHoldCounter;           // Counter for how long the jump key is held
     private bool isJumping = false;          // Flag to track if the jump is in progress
@@ -24,13 +30,15 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 boxSize; //use on Raycast
     public float castDistance; //use on Raycast
 
-    private Rigidbody2D rb;
+    private Rigidbody2D PlayerRb;
     private float horizontalInput;
     private bool facingRight = true;
     public float Direction => horizontalInput;  // Exposed for use in dash logic
     private PlayerDash _playerDash;    // Reference to the dash component
 
     private Animator animator;
+
+    
     
     void Awake()
     {
@@ -40,10 +48,12 @@ public class PlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        
+        PlayerRb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
+   
     
     // Update is called once per frame
     void Update()
@@ -63,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
                 jumpHoldCounter = maxHoldTime;
 
                 // Apply the base jump impulse
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                PlayerRb.linearVelocity = new Vector2(PlayerRb.linearVelocity.x, jumpForce);
                 animator.SetBool("jumping", true);
 
             }
@@ -100,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
         // Update horizontal movement only if not currently dashing.
         if (!_playerDash.IsDashing)
         { 
-            rb.linearVelocity = new Vector2(horizontalInput * speed, rb.linearVelocity.y);
+            PlayerRb.linearVelocity = new Vector2(horizontalInput * speed, PlayerRb.linearVelocity.y);
           }
 
         // While the jump key is held and within allowed hold time, apply extra upward force
@@ -112,7 +122,7 @@ public class PlayerMovement : MonoBehaviour
             float extraImpulsePerFrame = ((maxMultiplier - 1f) * jumpForce / maxHoldTime) * Time.fixedDeltaTime;
 
             // Apply the extra impulse using AddForce with Impulse mode
-            rb.AddForce(new Vector2(0, extraImpulsePerFrame), ForceMode2D.Impulse);
+            PlayerRb.AddForce(new Vector2(0, extraImpulsePerFrame), ForceMode2D.Impulse);
 
             jumpHoldCounter -= Time.fixedDeltaTime;
         }
@@ -160,5 +170,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
+   
     
 }

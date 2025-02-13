@@ -6,26 +6,23 @@ using UnityEngine.SceneManagement;
 public class OutBounds : MonoBehaviour
 
 {
-    public int Respawn; //Restart the scene after player fall out of bounds
+     GameController gameController;
+    public Transform respawnPoint;
 
-    void Start()
+
+    private void Awake()
     {
-
-
+        gameController= GameObject.FindGameObjectWithTag("Player").GetComponent<GameController>();
     }
+    
+    //public int Respawn; //Restart the scene after player fall out of bounds
 
-    void Update()
-
-    {
-
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
 
     {
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Respawn); //Scene 0 = first one to Respawn, modify Respawn to scene number if applied
+            gameController.UpdateCheckpoint(respawnPoint.position);
         }
     }
 

@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638745433571218201
     m_Hash: 2396898395
+=======
+      ticks: 638747164031398161
+    m_Hash: 2534293324
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: E:/Unity Demos/Forbidden Entrance Demo/Forbidden Entrance 2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638745433571554724
     m_Hash: 2008955728
+=======
+      ticks: 638747164031503015
+    m_Hash: 978464734
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +32,222 @@ m_LocalPackages:
 m_ProjectPath: E:/Unity Demos/Forbidden Entrance Demo/Forbidden Entrance 2D/Packages
 m_EditorVersion: 6000.0.35f1 (9a3bc604008a)
 m_ResolvedPackages:
+- packageId: com.unity.behavior@1.0.8
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.8
+  source: 1
+  resolvedPath: C:\Forbidden-Entrance-Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.behavior@9aa96a37293c
+  assetPath: Packages/com.unity.behavior
+  name: com.unity.behavior
+  displayName: Behavior
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Unity Behavior is a graph-based tool to create and run behavior trees.
+    Besides including a comprehensive library of pre-built nodes, the interface provides
+    node customization options and real-time debugging. While fully functional on
+    its own, a Unity Muse subscription enhances your experience by using large language
+    models (LLM) to generate behavior trees from text prompts and create code for
+    custom action nodes. This subscription, although optional, provides a powerful
+    addition for those looking to accelerate their development process.
+
+
+    A demo
+    showcasing this package can be found in the Asset Store <a href=https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313>https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313</a>.'
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.0.7
+    - 1.0.8
+    compatible:
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.0.7
+    - 1.0.8
+    recommended: 1.0.8
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.7.2
+  - name: com.unity.dt.app-ui
+    version: 2.0.0-pre.16
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.1.4
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.dt.app-ui
+    version: 2.0.0-pre.16
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - behavior
+  - behavior tree
+  - behavior graph
+  - graph
+  - ai
+  - gameplay
+  - NPCs
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638742058310560000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.behavior@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.designer-monorepo.git
+    revision: da2380704c2705a70a73cffc0e7adac51abc27b8
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 1.0.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Switch node will no longer log errors
+    for unassigned children.\n- Updated sample materials to URP (the default render
+    pipeline for Unity 6.0).\n- `Start()` will start the graph again if it''s not
+    currently running (i.e. it finished, or just been set). It''ll defer it to `Update()`
+    if the component is disabled.\n- Components will now appear under the `Other/MonoBehaviours`
+    search menu for variable types (adding new variables, or setting them for node
+    variables).\n- Updated AppUI to 2.0.0-pre.16 to benefit from fixes to AppUI.\n\n###
+    Fixed\n- Fixed an issue where existing subgraph representations would not sometimes
+    be removed when deleting the text input.\n- Static subgraphs now have their parent
+    rebuilt when saved.\n- Fixed regression where renaming a blackboard variable
+    would not be reflected in the graph.\n- Calling `BehaviorGraphAgent.Restart()`
+    before the graph was started resulted in the graph''s `Start()` being called
+    twice.\n- Fixed search view string formatting leaking through to the callers
+    such as type dropdowns.\n- Fixed an issue where case differences in the case
+    of variable names on the subgraph representation could cause duplicate fields
+    added on a `SubgraphNodeModel`.\n- Opening a behavior graph window wasn''t focusing
+    the window when docked, causing it to be behind other windows.\n- Graph agent
+    init and start states weren''t set correctly after runtime deserialization.\n-
+    `Restart()` was running first iteration of the graph even when the agent was
+    paused.\n- Fixed behavior graph not always framing the graph content correctly
+    when opening a Behavior Graph asset.\n- Fixed attempting to assign a GameObject
+    to a newly created GameObject Blackboard Variable in the Blackboard inspector
+    not working.\n- Fixed an issue where Run Subgraph node LinkFields would not keep
+    their override values correctly when the Subgraph Representation mode was toggled
+    on.\n- Fixed an issue where duplicated Run Subgraph nodes did not keep their
+    Subgraph Representation mode selected for the node UI.\n- Right Click -> Edit/Inspect
+    Script will now work correctly with VSCode.\n- Fixed warning when changing a
+    BlackboardVariable type to Vector2Int or Vector3Int.\n- Fixed search filter formatting
+    persisting when using the back button to return to the search root.\n- Improved
+    search query result accuracy.\n- Overriding ''Self'' variable works again, allowing
+    you to use a different GameObject to the one running the graph.\n- `NavigateToTargetAction`
+    will correctly return success instead of failure if it''s started within range
+    of the target.\n- Fixed an issue where fields on duplicated nodes did not keep
+    the correct local values from the original.\n- Sequencing/Enum Wizards will no
+    longer propose the same enum/port name as one that already exists (example, adding
+    2 members with default name, deleting the 1st one and adding a new one used to
+    call both Member 2).\n- Fixed BlackboardAsset Shared Variable keeping playmode
+    value.\n- Run Subgraph (Dynamic) wasn''t initializing a copy of the graph asset
+    correctly, causing data to be shared amongst agents sharing the graph and corrupting
+    the graph asset.\n- Various `SetBlackboardVariable` APIs were writing to the
+    asset incorrectly before it was initialized.\n- Changing the value of a subgraph
+    blackboard variable to a different subgraph will now correctly update the dynamic
+    subgraph node running it.\n- Subgraph variables will correctly sync with the
+    parent graph and vice versa.\n\n### Known Issues\n- After much user feedback
+    and investigation, we have determined that runtime serialization is not recommended
+    for use at this time due to an existing limitation in its implementation. Our
+    team is working diligently to address these concerns and bring the feature to
+    the expected quality level in an upcoming release. In the meantime, we appreciate
+    your patience and understanding as we strive to enhance this functionality.\n-
+    After using the \"Delete Runtime Assets\" button for the graph, prefabs/objects
+    using the graph may lose their references to it (or contain an old stale one)
+    and need reassignment."}'
+  assetStore:
+    productId: 
+  fingerprint: 9aa96a37293c0237b05acfd1cf974d19654c204e
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0-pre.1
+    minimumUnityVersion: 6000.0.16f1
 - packageId: com.unity.cinemachine@3.1.3
   testable: 0
   isDirectDependency: 1
@@ -6418,6 +6644,7 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.7.2
     minimumUnityVersion: 2022.3.0a1
+<<<<<<< Updated upstream
 - packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
@@ -6504,6 +6731,8 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.9.2
     minimumUnityVersion: 2019.1.0a1
+=======
+>>>>>>> Stashed changes
 - packageId: com.unity.burst@1.8.18
   testable: 0
   isDirectDependency: 0
@@ -6724,6 +6953,400 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.18
     minimumUnityVersion: 2020.3.0a1
+- packageId: com.unity.dt.app-ui@2.0.0-pre.16
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0-pre.16
+  source: 1
+  resolvedPath: C:\Forbidden-Entrance-Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.dt.app-ui@166eda91cea7
+  assetPath: Packages/com.unity.dt.app-ui
+  name: com.unity.dt.app-ui
+  displayName: App UI
+  author:
+    name: 
+    email: 
+    url: 
+  category: UI
+  type: 
+  description: App UI is a versatile and customizable UI library for Unity that provides
+    essential building blocks for creating beautiful and responsive user interfaces.
+    With support for MVVM architecture, state management, and localization, App UI
+    simplifies app development while maintaining flexibility and extensibility. The
+    library includes a wide range of UI components, design tokens, and symbols, all
+    of which can be easily customized to fit your app's unique style and branding.
+  errors: []
+  versions:
+    all:
+    - 0.2.7
+    - 0.2.9
+    - 0.2.11
+    - 0.2.12
+    - 0.3.1
+    - 0.3.2
+    - 0.3.3
+    - 0.3.4
+    - 0.3.5
+    - 0.3.8
+    - 0.3.9
+    - 0.4.0
+    - 0.4.1
+    - 0.4.2
+    - 0.5.0
+    - 0.5.1
+    - 0.5.2
+    - 0.5.3
+    - 0.5.4
+    - 0.5.5
+    - 0.6.0
+    - 0.6.1
+    - 0.6.2
+    - 0.6.3
+    - 0.6.4
+    - 0.6.5
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0-pre.9
+    - 1.0.0-pre.10
+    - 1.0.0-pre.11
+    - 1.0.0-pre.12
+    - 1.0.0-pre.13
+    - 1.0.0-pre.14
+    - 1.0.0-pre.15
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0
+    - 1.2.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0-pre.7
+    - 2.0.0-pre.8
+    - 2.0.0-pre.9
+    - 2.0.0-pre.10
+    - 2.0.0-pre.11
+    - 2.0.0-pre.12
+    - 2.0.0-pre.13
+    - 2.0.0-pre.14
+    - 2.0.0-pre.15
+    - 2.0.0-pre.16
+    - 2.0.0-pre.17
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0
+    - 1.2.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0-pre.7
+    - 2.0.0-pre.8
+    - 2.0.0-pre.9
+    - 2.0.0-pre.10
+    - 2.0.0-pre.11
+    - 2.0.0-pre.12
+    - 2.0.0-pre.13
+    - 2.0.0-pre.14
+    - 2.0.0-pre.15
+    - 2.0.0-pre.16
+    - 2.0.0-pre.17
+    recommended: 1.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords:
+  - app
+  - ui
+  - components
+  - runtime
+  - framework
+  - navigation
+  - dependency-injection
+  - mvvm
+  - undostack
+  - redux
+  - state-management
+  - dark-theme
+  - data-binding
+  - cloud
+  - unity
+  - app-ui
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638728907421320000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.dt.app-ui@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/unity-app-ui.git
+    revision: 507f4d2c0b743f52c3651d613d680bc909905b46
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 2.0.0-pre.6
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Removed\n\n- Removed `Unity.AppUI.Core.AppUI.DismissAnyPopups`
+    method. Popups are now registered per `Panel` element.\n\n### Changed\n\n- Refactored
+    SliderBase and BaseSlider for performance improvements and better features. The
+    RangeSliderBase class has been removed and RangeSliderFloat/RangeSliderInt are
+    now derived from SliderBase directly.\n- The `Platform`, `AppUIInput` and `GestureRecognizer`
+    classes now use pre-allocated buffers to deal with Touch events in a single frame,
+    and expects a `ReadOnlySpan<AppUITouch>` type to work with instead of `AppUITouch[]`.\n-
+    Changed `ticks` related properties in Slider components with a new `marks` property.
+    To configure marks you can you the new `step` property or directly set your `customMarks`\n-
+    Updated App UI Native plugins for MacOS and iOS.\n\n### Added\n\n- Added `scale`
+    property on slider components to support custom non-linear scaling of displayed
+    values in the UI.\n- Added the support of inverted track progress in slider components.\n-
+    Added Redux Debugging tool.\n- Added `formatFunction` along with `formatString`
+    and grouped them into a new `IFormattable<TValueType>` interface. The `formatFunction`
+    will give you the possibility to customize entirely the string formatted value
+    of a given `TValueType`.\n- Added a `RestrictedValuePolicy` on slider components
+    where you can choose if the slider can take a value related to the `step` or
+    `customMarks` with modifier keys or not.\n- `VisualElementExtensions.HasAncestorsOfType{T}`
+    method to verify if an element as any ancestor of a specific type.\n- Added the
+    serialzation of last selected indices in Storybook window to save and restore
+    selection.\n- Added `orientation` property on slider components, to support vertical
+    sliders.\n- Added `VisualElementExtensions.GetLastAncestorOfType{T}` method to
+    retrieve the last ancestor of a specific type in the tree.\n- Added `VisualElementExtensions.EnableDynamicTransform`
+    method to set/unset the `UsageHints.DynamicTransform` flag in your element''s
+    usageHints.\n- Added `RectExtensions.Approximately` method to verify if two Rect
+    object are approximately the same.\n- Popup elements such as `Popover`, `Modal`
+    or `MenuBuilder` now get their view''s `userData` filled with the `Popup` instance
+    itself. This way you can retrieve information about the `Popup` instance that
+    created this popup element from within the visual tree.\n- Added USS custom properties
+    to choose the font style of AccordionItem header and TabItem text.\n\n### Fixed\n\n-
+    Fixed calling `shown` event callbacks when a `Modal` is displayed.\n- Fixed Tabs
+    emphasized color in Editor-light theme.\n- Use `RenderTexture.GetTemporary` instead
+    of `new RenderTexture` to optimize RT allocations, especially on tile-based renderers
+    such as mobile platforms.\n- Fixed an exception thrown when dismiss any popup
+    of a panel when this panel becomes out of focus."}'
+  assetStore:
+    productId: 
+  fingerprint: 166eda91cea758dc5bc85bcb64d443e46ac29458
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.1.0
+    minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.1
+  source: 1
+  resolvedPath: C:\Forbidden-Entrance-Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  errors: []
+  versions:
+    all:
+    - 3.2.1
+    compatible:
+    - 3.2.1
+    recommended: 3.2.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
+    path: 
+  unityLifecycle:
+    version: 3.2.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"* Fixed Newtonsoft DLL when compiling with netstandard
+    2.0."}'
+  assetStore:
+    productId: 
+  fingerprint: 74deb55db2a0c29ddfda576608bcb86abbd13ee6
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.2.1
+    minimumUnityVersion: 2018.4.0a1
+- packageId: com.unity.searcher@4.9.2
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.2
+  source: 1
+  resolvedPath: C:\Forbidden-Entrance-Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.searcher@90d011a70418
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    - 4.9.3
+    compatible:
+    - 4.9.2
+    - 4.9.3
+    recommended: 4.9.3
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637831252240000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
+    path: 
+  unityLifecycle:
+    version: 4.9.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 90d011a70418fd5b0f4b8e86df39444d2af228dd
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.9.2
+    minimumUnityVersion: 2019.1.0a1
 - packageId: com.unity.mathematics@1.3.2
   testable: 0
   isDirectDependency: 0

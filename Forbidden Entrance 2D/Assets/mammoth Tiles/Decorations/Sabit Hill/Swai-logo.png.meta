@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: c4df46d4a4c544943a3a46cfd74d2586
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7505182556306169887
+    second: Swai-logo_0
+  - first:
+      213: 1227412298468674381
+    second: Swai-logo_1
+  - first:
+      213: -5856537554141251905
+    second: Swai-logo_2
+  - first:
+      213: -5634753363846650567
+    second: Swai-logo_3
+  - first:
+      213: 898973509760531421
+    second: Swai-logo_4
+  - first:
+      213: 6363665894568720677
+    second: Swai-logo_5
+  - first:
+      213: -1096558426947538149
+    second: Swai-logo_6
+  - first:
+      213: -6702232106285093399
+    second: Swai-logo_7
+  - first:
+      213: -9021490481472364154
+    second: Swai-logo_8
+  - first:
+      213: -312685956457371701
+    second: Swai-logo_9
+  - first:
+      213: 805884410062344368
+    second: Swai-logo_10
+  - first:
+      213: -1962793284749209790
+    second: Swai-logo_11
+  - first:
+      213: 8991873776990181968
+    second: Swai-logo_12
+  - first:
+      213: 6716057286820949506
+    second: Swai-logo_13
+  - first:
+      213: -1130433745561711457
+    second: Swai-logo_14
+  - first:
+      213: -7549210082682435098
+    second: Swai-logo_15
+  - first:
+      213: -6322615210919448083
+    second: Swai-logo_16
+  - first:
+      213: -5893127768864880971
+    second: Swai-logo_17
+  - first:
+      213: -91622013840782259
+    second: Swai-logo_18
+  - first:
+      213: -3658071843774483631
+    second: Swai-logo_19
+  - first:
+      213: -186480530145436804
+    second: Swai-logo_20
+  - first:
+      213: -8023761679072314546
+    second: Swai-logo_21
+  - first:
+      213: 3443969228368914925
+    second: Swai-logo_22
+  - first:
+      213: -3110539491300387031
+    second: Swai-logo_23
+  - first:
+      213: 6726453101674460750
+    second: Swai-logo_24
+  - first:
+      213: 4026790567841602187
+    second: Swai-logo_25
+  - first:
+      213: 4349813218958600544
+    second: Swai-logo_26
+  - first:
+      213: 2320308206945294286
+    second: Swai-logo_27
+  - first:
+      213: 4714623839819798254
+    second: Swai-logo_28
+  - first:
+      213: -7072482364328418613
+    second: Swai-logo_29
+  - first:
+      213: 3773830326447927233
+    second: Swai-logo_30
+  - first:
+      213: 2478117354742477140
+    second: Swai-logo_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Swai-logo_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef99ecaa3c38d790800000000000000
+      internalID: -7505182556306169887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 61
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bcb2b7bf4a80110800000000000000
+      internalID: 1227412298468674381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 61
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6fcafaf1669bea0800000000000000
+      internalID: -5856537554141251905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 61
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935abf67ba55dc1b0800000000000000
+      internalID: -5634753363846650567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_4
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 116
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb33c7e4abc97c00800000000000000
+      internalID: 898973509760531421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_5
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 61
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529790b3a68405850800000000000000
+      internalID: 6363665894568720677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_6
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 62
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13b456abed38c0f0800000000000000
+      internalID: -1096558426947538149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_7
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eda8a6c863ecf2a0800000000000000
+      internalID: -6702232106285093399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 61
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681a54b743a3dc280800000000000000
+      internalID: -9021490481472364154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_9
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 62
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7ea1f77cd19abf0800000000000000
+      internalID: -312685956457371701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 61
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b09ac7e9931f2b00800000000000000
+      internalID: 805884410062344368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 62
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f400728e1c2c4e0800000000000000
+      internalID: -1962793284749209790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_12
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 62
+        width: 15
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a56a62f8d89cc70800000000000000
+      internalID: 8991873776990181968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 22
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ee228e48a343d50800000000000000
+      internalID: 6716057286820949506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 22
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c0ea96f74ef40f0800000000000000
+      internalID: -1130433745561711457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 23
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e98aee5d61db3790800000000000000
+      internalID: -7549210082682435098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_16
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 22
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de13aadd6fe8148a0800000000000000
+      internalID: -6322615210919448083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 23
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b681d07487673ea0800000000000000
+      internalID: -5893127768864880971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_18
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 22
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c0a6b834e7abef0800000000000000
+      internalID: -91622013840782259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_19
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 22
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153b6f41a0beb3dc0800000000000000
+      internalID: -3658071843774483631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 47
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b972322fc796df0800000000000000
+      internalID: -186480530145436804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 23
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bb08cb34fd5a090800000000000000
+      internalID: -8023761679072314546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_22
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 23
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de92e4a24cf6bcf20800000000000000
+      internalID: 3443969228368914925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_23
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 15
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927573120d425d4d0800000000000000
+      internalID: -3110539491300387031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 23
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4671ab2579295d50800000000000000
+      internalID: 6726453101674460750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_25
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 22
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a9715cfa802e730800000000000000
+      internalID: 4026790567841602187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_26
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 15
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069635b8314ad5c30800000000000000
+      internalID: 4349813218958600544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 22
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7d56c4504633020800000000000000
+      internalID: 2320308206945294286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_28
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 22
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee61c063765bd6140800000000000000
+      internalID: 4714623839819798254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_29
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 23
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc26df1e2ce79dd90800000000000000
+      internalID: -7072482364328418613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_30
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 22
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf6682ffa65f5430800000000000000
+      internalID: 3773830326447927233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swai-logo_31
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 23
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451f721ca9a046220800000000000000
+      internalID: 2478117354742477140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Swai-logo_0: -7505182556306169887
+      Swai-logo_1: 1227412298468674381
+      Swai-logo_10: 805884410062344368
+      Swai-logo_11: -1962793284749209790
+      Swai-logo_12: 8991873776990181968
+      Swai-logo_13: 6716057286820949506
+      Swai-logo_14: -1130433745561711457
+      Swai-logo_15: -7549210082682435098
+      Swai-logo_16: -6322615210919448083
+      Swai-logo_17: -5893127768864880971
+      Swai-logo_18: -91622013840782259
+      Swai-logo_19: -3658071843774483631
+      Swai-logo_2: -5856537554141251905
+      Swai-logo_20: -186480530145436804
+      Swai-logo_21: -8023761679072314546
+      Swai-logo_22: 3443969228368914925
+      Swai-logo_23: -3110539491300387031
+      Swai-logo_24: 6726453101674460750
+      Swai-logo_25: 4026790567841602187
+      Swai-logo_26: 4349813218958600544
+      Swai-logo_27: 2320308206945294286
+      Swai-logo_28: 4714623839819798254
+      Swai-logo_29: -7072482364328418613
+      Swai-logo_3: -5634753363846650567
+      Swai-logo_30: 3773830326447927233
+      Swai-logo_31: 2478117354742477140
+      Swai-logo_4: 898973509760531421
+      Swai-logo_5: 6363665894568720677
+      Swai-logo_6: -1096558426947538149
+      Swai-logo_7: -6702232106285093399
+      Swai-logo_8: -9021490481472364154
+      Swai-logo_9: -312685956457371701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

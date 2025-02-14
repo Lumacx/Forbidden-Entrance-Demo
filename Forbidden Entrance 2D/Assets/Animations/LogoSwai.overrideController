@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LogoSwai
+  m_Controller: {fileID: 9100000, guid: 07dc1732fae922e41a26f6eb8b95a4b0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3234e3865d70bc143967b1a5b9702fee, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f91fec68a8e1b7347ad120068726df65, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6a7c25cc66ba7a34b9d86dd0aadc0e65, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 053b973acb2e2864eb6a3925d809c79c, type: 2}

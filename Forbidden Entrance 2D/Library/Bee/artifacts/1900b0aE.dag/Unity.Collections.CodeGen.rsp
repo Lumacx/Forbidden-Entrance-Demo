@@ -127,6 +127,7 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"Assets/Thirdweb/Plugins/ThreadingPatcher/Plugins/Mono.Cecil.dll"
 -r:"E:/Unity Files/6000.0.35f1/Editor/Data/Managed/Unity.CompilationPipeline.Common.dll"
 -r:"E:/Unity Files/6000.0.35f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"E:/Unity Files/6000.0.35f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
@@ -383,7 +384,6 @@
 -r:"E:/Unity Files/6000.0.35f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"E:/Unity Files/6000.0.35f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@60ef35ffd3cd/net40/unity-custom/nunit.framework.dll"
--r:"Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll"
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Pdb.dll"
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Rocks.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"

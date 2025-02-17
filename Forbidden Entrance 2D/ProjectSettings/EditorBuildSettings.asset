@@ -6,14 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Landing Page.unity
+    path: Assets/Scenes/0 LP Start.unity
     guid: 016c716e5e4266b45bb15ebd75c144b0
   - enabled: 1
-    path: Assets/Scenes/Level 1 Test 1.0.unity
+    path: Assets/Scenes/1 Level - Snow 1.0.unity
+    guid: 890068c7f0dde10468571bd0c09dda9b
+  - enabled: 1
+    path: Assets/Scenes/2 Level - Forest 1.0.unity
+    guid: 623ada20bc492a547bfe7fe0e4b278fe
+  - enabled: 1
+    path: Assets/Scenes/3 Level - Tower 1.0.unity
     guid: ea10166999c9ed64b8be01b1a8ac4a76
   - enabled: 1
-    path: Assets/Scenes/Mammothon v1.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/4 Level - Tower Boss.unity
+    guid: ee5fb99e63576aa43a2204a882a98cae
+  - enabled: 1
+    path: Assets/Scenes/5 LP End.unity
+    guid: 599aa383e6a72f0469327d06b5f6bbc6
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 99f9c9493070a9d4c979a8fec7c5a8d3, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

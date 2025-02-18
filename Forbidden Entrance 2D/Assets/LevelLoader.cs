@@ -12,7 +12,7 @@ public class LevelLoader : MonoBehaviour
     void Update()
     {
         //Modify for checkpoint instead of just mouse click as needed
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(2))
         {
             LoadNextLevel();
         }

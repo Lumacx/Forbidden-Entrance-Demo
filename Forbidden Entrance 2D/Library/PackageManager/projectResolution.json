@@ -88,6 +88,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.postprocessing@3.4.0": {
+      "name": "com.unity.postprocessing",
+      "displayName": "Post Processing",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.postprocessing@026b2a0827a4",
+      "fingerprint": "026b2a0827a438e3079df62a60ca03d54961393d",
+      "editorCompatibility": "2019.4.19f1",
+      "version": "3.4.0",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.recorder@5.1.2": {
       "name": "com.unity.recorder",
       "displayName": "Recorder",

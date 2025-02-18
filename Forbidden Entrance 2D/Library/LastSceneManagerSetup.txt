@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/5 LP End.unity
+- path: Assets/Scenes/2 Level - Forest 1.0.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

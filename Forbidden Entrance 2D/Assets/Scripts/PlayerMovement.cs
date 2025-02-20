@@ -38,7 +38,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
 
-    
+    public bool isOnPlatform;
+    public Rigidbody2D platformRB;
     
     void Awake()
     {
@@ -109,8 +110,15 @@ public class PlayerMovement : MonoBehaviour
     {
         // Update horizontal movement only if not currently dashing.
         if (!_playerDash.IsDashing)
-        { 
-            PlayerRb.linearVelocity = new Vector2(horizontalInput * speed, PlayerRb.linearVelocity.y);
+        {
+            if (isOnPlatform)
+            {
+                PlayerRb.linearVelocity = new Vector2(horizontalInput * speed+platformRB.linearVelocity.x, PlayerRb.linearVelocity.y);
+            }
+            else
+            {
+                PlayerRb.linearVelocity = new Vector2(horizontalInput * speed, PlayerRb.linearVelocity.y);
+            }
           }
 
         // While the jump key is held and within allowed hold time, apply extra upward force

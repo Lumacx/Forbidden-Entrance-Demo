@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Audio
+  - Portal
+  - Obstacle
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - Platform
   - Wall
   - Glow
-  - 
+  - Portal
   - 
   - 
   - 
@@ -48,6 +51,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Portal
+    uniqueID: 2133190537
     locked: 0
   - name: Player
     uniqueID: 3181822317

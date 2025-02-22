@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/1 Level - Snow 1.0.unity
+- path: Assets/Thirdweb/Examples/Scenes/Scene_Playground.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

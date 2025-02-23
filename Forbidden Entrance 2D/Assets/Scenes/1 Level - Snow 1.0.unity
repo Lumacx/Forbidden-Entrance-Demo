@@ -17050,9 +17050,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -19.815722, y: -12.863818}
-      - {x: 19.262135, y: -12.832734}
-      - {x: 83.15376, y: -13.151467}
+    - - {x: -18.791422, y: -6.103438}
+      - {x: 21.561466, y: -5.8137255}
+      - {x: 82.83504, y: -7.0958347}
+      - {x: 85.70351, y: -7.095827}
       - {x: 188.24364, y: -6.925296}
       - {x: 188.24364, y: 7.689684}
       - {x: -34.629913, y: 7.464655}
@@ -26765,6 +26766,10 @@ PrefabInstance:
     - target: {fileID: 7950016038551137733, guid: 5baa15121d9900542bff84c16b21ae46, type: 3}
       propertyPath: InitialModule.gravitySource
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950016038551137733, guid: 5baa15121d9900542bff84c16b21ae46, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 7950016038551137733, guid: 5baa15121d9900542bff84c16b21ae46, type: 3}
       propertyPath: ShapeModule.alignToDirection

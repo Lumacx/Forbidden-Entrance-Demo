@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Arcade Landing Page_0: 8738926042170531806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stickers-insert-coin-to-play_0: -7637747927699322432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

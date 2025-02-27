@@ -1,0 +1,17 @@
+{
+  "name": "com.reown.unity.dependencies",
+  "version": "1.2.2",
+  "displayName": "Reown.Unity.Dependencies",
+  "unity": "2022.3",
+  "author": "Reown",
+  "keywords": [
+    "reown"
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
+  "_fingerprint": "2b729743b8e895979a8fe1b34155efda41f13f3a"
+}

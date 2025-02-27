@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/1 Level - Snow 1.0.unity
+- path: Assets/Scenes/0 LP Start Web3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

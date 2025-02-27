@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638753708135741905
-    m_Hash: 1688409734
+      ticks: 638761953747235395
+    m_Hash: 2305482712
   m_LockFileStatus:
     m_FilePath: E:/Unity Demos/Forbidden Entrance Demo/Forbidden Entrance 2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638753708135774124
-    m_Hash: 278059839
+      ticks: 638761953747265315
+    m_Hash: 2478373851
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,277 @@ m_LocalPackages:
 m_ProjectPath: E:/Unity Demos/Forbidden Entrance Demo/Forbidden Entrance 2D/Packages
 m_EditorVersion: 6000.0.35f1 (9a3bc604008a)
 m_ResolvedPackages:
+- packageId: com.nethereum.unity@4.29.0
+  testable: 0
+  isDirectDependency: 1
+  version: 4.29.0
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.nethereum.unity@60d92e086c7a
+  assetPath: Packages/com.nethereum.unity
+  name: com.nethereum.unity
+  displayName: Nethereum
+  author:
+    name: Juan Blanco
+    email: 
+    url: nethereum.com
+  category: Unity
+  type: library
+  description: Nethereum 472 / netstandard AOT runtime dlls, please check Nethereum
+    releases for more information, extra components, or other versions (net461, net35,
+    netstandard)  https://github.com/Nethereum/Nethereum/releases, example can be
+    found at https://github.com/Nethereum/Unity3dSampleTemplate
+  errors: []
+  versions:
+    all:
+    - 4.16.1
+    - 4.19.1
+    - 4.19.2
+    - 4.26.0
+    - 4.27.0
+    - 4.28.0
+    - 4.29.0
+    compatible:
+    - 4.16.1
+    - 4.19.1
+    - 4.19.2
+    - 4.26.0
+    - 4.27.0
+    - 4.28.0
+    - 4.29.0
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  - nethereum
+  - ethereum
+  - rpc
+  - abi
+  - smart contracts
+  - evm
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638748024915860000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 60d92e086c7ab3351f0aef6a03415d550e0e0769
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.16.1
+    minimumUnityVersion: 2018.1.0a1
+- packageId: com.reown.appkit.unity@1.2.2
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.appkit.unity@bb6d3ee17c09
+  assetPath: Packages/com.reown.appkit.unity
+  name: com.reown.appkit.unity
+  displayName: Reown.AppKit.Unity
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: <img width="60px" src="https://raw.githubusercontent.com/reown-com/reown-dotnet/main/media/appkit-icon.png">
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.sign.nethereum.unity
+    version: 1.2.2
+  - name: com.reown.sign.unity
+    version: 1.2.2
+  - name: com.reown.core
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  - name: com.unity.vectorgraphics
+    version: 2.0.0-preview.24
+  resolvedDependencies:
+  - name: com.reown.sign.nethereum.unity
+    version: 1.2.2
+  - name: com.reown.sign.nethereum
+    version: 1.2.2
+  - name: com.reown.sign
+    version: 1.2.2
+  - name: com.reown.core
+    version: 1.2.2
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.core.crypto
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  - name: com.nethereum.unity
+    version: 4.29.0
+  - name: com.reown.sign.unity
+    version: 1.2.2
+  - name: com.unity.vectorgraphics
+    version: 2.0.0-preview.24
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  keywords:
+  - walletconnect
+  - ethereum
+  - appkit
+  - reown
+  - web3
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749897733880000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: bb6d3ee17c09086c149653074c06df460673e2a8
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
 - packageId: com.unity.behavior@1.0.8
   testable: 0
   isDirectDependency: 1
@@ -123,7 +394,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -638,6 +909,112 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.6.0
     minimumUnityVersion: 2021.3.0f1
+- packageId: com.unity.connect.share@4.2.3
+  testable: 0
+  isDirectDependency: 1
+  version: 4.2.3
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.connect.share@2f75d100c2a4
+  assetPath: Packages/com.unity.connect.share
+  name: com.unity.connect.share
+  displayName: WebGL Publisher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: tool
+  description: This tool allows you to make a WebGL build of your current project
+    and upload it to Unity's website, where it can be shared with others.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview
+    - 1.0.1-preview
+    - 1.0.2-preview
+    - 1.0.3-preview
+    - 1.0.4-preview
+    - 1.0.5-preview
+    - 1.0.6-preview.2
+    - 1.0.7-preview
+    - 1.0.8-preview
+    - 1.0.9-preview
+    - 1.0.10-preview
+    - 1.1.0-preview.1
+    - 1.2.0-preview.1
+    - 2.0.1-preview
+    - 2.0.2-preview.3
+    - 2.0.2-preview.4
+    - 2.0.3
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 3.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    compatible:
+    - 4.2.3
+    recommended: 4.2.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - webgl
+  - share
+  - connect
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637695698090000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git
+    revision: 9a66a825d48494378f81fc94289eddd505df1c40
+    path: 
+  unityLifecycle:
+    version: 4.2.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 2f75d100c2a4b2dde614abc1b56dc52f96a7ed91
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.2.3
+    minimumUnityVersion: 2019.3.0a1
 - packageId: com.unity.feature.2d@2.0.1
   testable: 0
   isDirectDependency: 1
@@ -709,7 +1086,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -772,12 +1149,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.1
     minimumUnityVersion: 
-- packageId: com.unity.ide.rider@3.0.31
+- packageId: com.unity.ide.rider@3.0.34
   testable: 0
   isDirectDependency: 1
-  version: 3.0.31
+  version: 3.0.34
   source: 1
-  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.ide.rider@7921be93db40
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.ide.rider@ecbf706690e5
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -786,7 +1163,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -861,13 +1238,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638651995659960000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: 700eb86ebc7b9f72d760e2e1c740fc5e2fd6a54b
     path: 
   unityLifecycle:
     version: 3.0.31
@@ -880,17 +1257,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"fix RIDER-104519 Rider is reporting errors in scripts
-    that work fine in Unity when utilizing DOTS - when Player project, by generating
-    projects for all assemblies in \"com.unity.entities\", \"com.unity.collections\"\nfix
-    RIDER-111622 Unity Rider package is not compatible with Rider Dev builds"}'
+  upmReserved: '{"changelog":"- Bump Unity minimum supported version"}'
   assetStore:
     productId: 
-  fingerprint: 7921be93db40ec070fcb01ed82d1c3df1bbdddcd
+  fingerprint: ecbf706690e5ce42dc165ddd8e5754acda3dc6b9
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.31
-    minimumUnityVersion: 2019.2.6f1
+    minimumUnityVersion: 2019.4.6f1
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
@@ -945,7 +1319,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -1070,10 +1444,12 @@ m_ResolvedPackages:
     - 1.11.2
     - 1.12.0
     - 1.13.0
+    - 1.13.1
     compatible:
     - 1.11.2
     - 1.12.0
     - 1.13.0
+    - 1.13.1
     recommended: 1.11.2
     deprecated: []
   dependencies:
@@ -1426,7 +1802,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.timeline
-    version: 1.8.7
+    version: 1.8.8
   - name: com.unity.modules.audio
     version: 1.0.0
   - name: com.unity.modules.director
@@ -1444,7 +1820,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -1604,7 +1980,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -1669,12 +2045,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.test-framework@1.4.5
+- packageId: com.unity.test-framework@1.4.6
   testable: 0
   isDirectDependency: 1
-  version: 1.4.5
+  version: 1.4.6
   source: 1
-  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.test-framework@0a21eb82d95c
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.test-framework@5ac417e07314
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1683,7 +2059,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: assets
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
   errors: []
   versions:
@@ -1780,13 +2156,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638575054880000000
+  datePublishedTicks: 638743524358990000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: e50747c90fb18ab9f4f350b60d0fcdcae19bdebc
+    revision: 9c6028f63a9b875e714b65de151b74e170152d49
     path: 
   unityLifecycle:
     version: 1.4.5
@@ -1799,47 +2175,35 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixed an issue where batchmode test runs would never
-    finish if a test yielded WaitForEndOfFrame (DSTR-1009).\n- Fixed an issue where
-    the location prompt was required when using the Install all tests in ''build''
-    folder option during test builds.\n- Canceling a PlayMode test run now correctly
-    restores the scene setup, instead of leaving the editor in the test scene.\n-
-    Fixed an issue where UnitySetUp did not fail when nested coroutines threw an
-    exception (DSTR-1007).\n- When selecting multiple tests and running them, the
-    test runner now correctly updates the details of the first selected test (UTF-602).\n-
-    The interaction mode and application idle time settings is now being changes
-    when running tests, resulting in faster test runs if not already in use (applies
-    to 2020.3 and later) (DSTR-690).\n- Fixed an issue where some NUnit attributes
-    caused errors and stopped async test runs (DSTR-1040).\n- Added support for the
-    MaxTime attribute on async and UnityTest methods (DSTR-1040).\n- Fixed a memory
-    leak issue where a large number of domain reloads within the same test could
-    crash the editor (DSTR-1023).\n- Changed to use a progress bar inside the test
-    runner window when running tests. This ensures that the progress bar is not fighting
-    to display when e.g. compiling scripts and also makes it easier to cancel a run.
-    This progress bar is displayed for all types of runs (EditMode, PlayMode and
-    Player). (UTF-596).\n- Fixed an issue where ignored tests with an attributes
-    did not display the ignore reason in the test runner UI.\n- Having multiple tests
-    with the same unique id no longer gives a error with ''An item with the same
-    key has already been added'', but instead logs an warning about the duplicate
-    id.\n- The result icons for test suites should no longer flicker when running
-    tests.\n- Ensured that test results ignored in the editor but run on a player
-    are not overwritten with ignore status when shown in the UI (DSTR-1042).\n- Fixed
-    an issue where the RunStarted event was not invoked correctly during a test run
-    (DSTR-1046).\n- Fixed an issue where TestStarted and TestFinished events were
-    repeated for ignored test fixtures after a domain reload (DSTR-986)."}'
+  upmReserved: '{"changelog":"- Fixed an issue where the architecture flag would
+    not be parsed for the StandaloneOSX platform.\n- Fixed an issue where the test
+    results ui and progress bar would not update before a user input, such as mouse
+    movement, was detected (UTF-609).\n- Fixed an issue where root of the test tree
+    was marked as NotRun, when all the tests were run and at least one test is ignore.\n-
+    Ensure that an error is raised and the test run is stopped if a playmode test
+    method exits playmode (DSTR-1091). \n- Async editmode tests are no longer throw
+    error when yielding a different value than null (DSTR-1066)\n- Fixed an issue
+    where the \"C# Test Script\" button was always disabled in One Column view in
+    Project tab. (DSTR-1083)\n- Async and UnityTest can now use ParametrizedIgnore
+    attribute. (DSTR-1068)\n- Corrected Timeout to only apply to the test method
+    and not the teardown methods, ensuring that TearDown is always run if a test
+    case times out (DSTR-1077).\n- Added a queue size indicator in the player side
+    test result ui. This can be used to track the progress of sending back result
+    data to the editor.\n- Parent node of the test tree is now updated after all
+    children finish running and have a result."}'
   assetStore:
     productId: 
-  fingerprint: 0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8
+  fingerprint: 5ac417e07314c8f6afba8109738c32b82d391e68
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.4.5
-    minimumUnityVersion: 2019.4.0a10
-- packageId: com.unity.timeline@1.8.7
+    minimumUnityVersion: 2019.4.1f1
+- packageId: com.unity.timeline@1.8.8
   testable: 0
   isDirectDependency: 1
-  version: 1.8.7
+  version: 1.8.8
   source: 1
-  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.timeline@c58b4ee65782
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.timeline@fa3a0bab2b90
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1848,7 +2212,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
@@ -1982,13 +2346,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638524833900000000
+  datePublishedTicks: 638739338167810000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d6432ca638481c3d0e4c01f87f9cdbe3c4b1d529
+    revision: b01f8fc6766a468476830dec57fdf694f16104e6
     path: 
   unityLifecycle:
     version: 1.8.7
@@ -2001,24 +2365,22 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Released ronl-workflow-custom-marker.md
-    Added a new workflow to the Timeline Workflows documentation:\n- Released ronl-workflow-custom-marker.md
-    The `Create a custom Notes marker` workflow demonstrates how to create a custom
-    marker for adding notes to Timeline instances. This workflow also demonstrates
-    how to change the default appearance of a custom marker with scripting and a
-    Unity Style Sheet (USS).\n\n### Fixed\n\n- Fixed bug where using , and . (<>)
-    to step frames in the Animation Window while the Timeline Window was linked would
-    sometimes not work. [IN-56667](https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-56667)\n-
-    When the Timeline and Animation windows are linked and the Timeline Window is
-    active, moving the playhead in the Timeline Window will cause the animation window
-    to repaint immediately."}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed bug where the first property,
+    when it is a collection of objects, of a TrackAsset would not be properly displayed
+    in the inspector.\n- TimelineAsset.EditorSettings.SetStandardFrameRate would
+    incorrectly throw an ArgumentException if given a valid StandardFrameRates, this
+    has been corrected.\n- Clip blends will now be computed when using the API to
+    add clips to tracks - IN-66759\n- Improved performance when evaluating Timeline
+    Playables with a large number of clip based Animation Tracks (TB-259)\n- Updated
+    the Gameplay Sequence sample to show materials when using the Universal and HD
+    Render Pipelines."}'
   assetStore:
     productId: 
-  fingerprint: c58b4ee65782ad38338e29f7ee67787cb6998f04
+  fingerprint: fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.7
-    minimumUnityVersion: 2019.3.0a1
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
@@ -4887,7 +5249,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -5088,7 +5450,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -5188,7 +5550,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -5332,10 +5694,12 @@ m_ResolvedPackages:
     - 2.5.0-pre.2
     - 2.5.1
     - 2.5.2
+    - 2.5.3
     compatible:
     - 2.5.1
     - 2.5.2
-    recommended: 2.5.2
+    - 2.5.3
+    recommended: 2.5.3
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -5354,7 +5718,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -5432,8 +5796,10 @@ m_ResolvedPackages:
     all:
     - 1.0.0-pre.1
     - 1.0.0
+    - 1.1.0-exp.1
     compatible:
     - 1.0.0
+    - 1.1.0-exp.1
     recommended: 1.0.0
     deprecated: []
   dependencies:
@@ -5449,7 +5815,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -5687,7 +6053,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -6636,6 +7002,157 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.1.7
     minimumUnityVersion: 2021.3.15f1
+- packageId: com.unity.editorcoroutines@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  assetPath: Packages/com.unity.editorcoroutines
+  name: com.unity.editorcoroutines
+  displayName: Editor Coroutines
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'The editor coroutines package allows developers to start constructs
+    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    objects. '
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - coroutine
+  - coroutines
+  - editor
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637232611380000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2018.1.0a1
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.settings-manager@56a930affa1e
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.1
+    minimumUnityVersion: 2018.4.0a1
 - packageId: com.unity.splines@2.7.2
   testable: 0
   isDirectDependency: 0
@@ -7293,6 +7810,645 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.2.1
     minimumUnityVersion: 2018.4.0a1
+- packageId: com.reown.sign.nethereum.unity@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.sign.nethereum.unity@a32b9fe1a9e2
+  assetPath: Packages/com.reown.sign.nethereum.unity
+  name: com.reown.sign.nethereum.unity
+  displayName: Reown.Sign.Nethereum.Unity
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.sign.nethereum
+    version: 1.2.2
+  - name: com.reown.sign.unity
+    version: 1.2.2
+  resolvedDependencies:
+  - name: com.reown.sign.nethereum
+    version: 1.2.2
+  - name: com.reown.sign
+    version: 1.2.2
+  - name: com.reown.core
+    version: 1.2.2
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.core.crypto
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  - name: com.nethereum.unity
+    version: 4.29.0
+  - name: com.reown.sign.unity
+    version: 1.2.2
+  keywords:
+  - reown
+  - walletconnect
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749897424780000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: a32b9fe1a9e2b59f2fcf05ed68b2d53eeb9ec23b
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.reown.sign.unity@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.sign.unity@b6ad143a926d
+  assetPath: Packages/com.reown.sign.unity
+  name: com.reown.sign.unity
+  displayName: Reown.Sign.Unity
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.sign
+    version: 1.2.2
+  resolvedDependencies:
+  - name: com.reown.sign
+    version: 1.2.2
+  - name: com.reown.core
+    version: 1.2.2
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.core.crypto
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  keywords:
+  - reown
+  - walletconnect
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749897111140000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: b6ad143a926d7eb813d2b0f6bc29dfe45f626116
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.reown.core@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.core@3064956ba6f7
+  assetPath: Packages/com.reown.core
+  name: com.reown.core
+  displayName: Reown.Core
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.core.crypto
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  resolvedDependencies:
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.core.crypto
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  keywords:
+  - reown
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749897636710000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 3064956ba6f7a1ee83fdd59f16089c04fb9e0035
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.reown.unity.dependencies@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.unity.dependencies@2b729743b8e8
+  assetPath: Packages/com.reown.unity.dependencies
+  name: com.reown.unity.dependencies
+  displayName: Reown.Unity.Dependencies
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  resolvedDependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  keywords:
+  - reown
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749896611940000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 2b729743b8e895979a8fe1b34155efda41f13f3a
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.unity.vectorgraphics@2.0.0-preview.24
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0-preview.24
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.vectorgraphics@654a957a65c7
+  assetPath: Packages/com.unity.vectorgraphics
+  name: com.unity.vectorgraphics
+  displayName: Vector Graphics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: The vector graphics package provides an SVG importer and runtime vector
+    graphics APIs.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.13
+    - 1.0.0-preview.15
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.21
+    - 1.0.0-preview.22
+    - 1.0.0-preview.23
+    - 1.0.0-preview.24
+    - 1.0.0-preview.26
+    - 1.0.0-preview.27
+    - 1.0.0-preview.28
+    - 1.0.0-preview.29
+    - 1.0.0-preview.30
+    - 1.0.0-preview.31
+    - 1.0.0-preview.32
+    - 1.0.0-preview.33
+    - 1.0.0-preview.34
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.6
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0-preview.12
+    - 2.0.0-preview.13
+    - 2.0.0-preview.14
+    - 2.0.0-preview.15
+    - 2.0.0-preview.16
+    - 2.0.0-preview.17
+    - 2.0.0-preview.18
+    - 2.0.0-preview.19
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.23
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    compatible:
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.6
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0-preview.12
+    - 2.0.0-preview.13
+    - 2.0.0-preview.14
+    - 2.0.0-preview.15
+    - 2.0.0-preview.16
+    - 2.0.0-preview.17
+    - 2.0.0-preview.18
+    - 2.0.0-preview.19
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.23
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  keywords:
+  - vector
+  - graphics
+  - svg
+  - importer
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638412912070000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.vectorgraphics@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.vectorgraphics.git
+    revision: df958cfb1768a2e40eae9f7d86ccf78856c7fa59
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n* Fixed RenderSpriteToTexture2D not working
+    in builds because of wrong shader name"}'
+  assetStore:
+    productId: 
+  fingerprint: 654a957a65c702b669c4241c866201d5fc01da2f
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.0-preview.2
+    minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
@@ -7510,7 +8666,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -7728,7 +8884,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -7939,63 +9095,87 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 9.0.7
     minimumUnityVersion: 2023.1.0a1
-- packageId: com.unity.settings-manager@2.0.1
+- packageId: com.reown.core.common@1.2.2
   testable: 0
   isDirectDependency: 0
-  version: 2.0.1
+  version: 1.2.2
   source: 1
-  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.unity.settings-manager@56a930affa1e
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.core.common@754d92867862
+  assetPath: Packages/com.reown.core.common
+  name: com.reown.core.common
+  displayName: Reown.Core.Common
   author:
-    name: 
+    name: Reown
     email: 
     url: 
   category: 
-  type: asset
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
+  type: 
+  description: 
   errors: []
   versions:
     all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
     - 1.0.0
     - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
     compatible:
-    - 2.0.1
-    recommended: 2.0.1
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
+  dependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  resolvedDependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  keywords:
+  - reown
   registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
+  datePublishedTicks: 638749896687140000
   documentationUrl: 
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -8008,9 +9188,548 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
+  fingerprint: 754d9286786242dd6d179f83dd573d02fb43a469
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.1
-    minimumUnityVersion: 2018.4.0a1
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.reown.core.network@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.core.network@1d7cfadaf1a5
+  assetPath: Packages/com.reown.core.network
+  name: com.reown.core.network
+  displayName: Reown.Core.Network
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.core.common
+    version: 1.2.2
+  resolvedDependencies:
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  keywords:
+  - reown
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749896618810000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 1d7cfadaf1a5e04f4014452d4543a61dcde25c39
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.reown.core.storage@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.core.storage@805dc98dc48e
+  assetPath: Packages/com.reown.core.storage
+  name: com.reown.core.storage
+  displayName: Reown.Core.Storage
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.core.common
+    version: 1.2.2
+  resolvedDependencies:
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  keywords:
+  - reown
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749896543250000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 805dc98dc48e60bd11d822273a60d60cf3d2ec56
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.reown.core.crypto@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.core.crypto@60257c4ed048
+  assetPath: Packages/com.reown.core.crypto
+  name: com.reown.core.crypto
+  displayName: Reown.Core.Crypto
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  resolvedDependencies:
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  keywords:
+  - reown
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749896597760000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 60257c4ed04866ad83ccab5c6f7994c7e95583e4
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.reown.sign@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.sign@c7945fa2b1e2
+  assetPath: Packages/com.reown.sign
+  name: com.reown.sign
+  displayName: Reown.Sign
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.core
+    version: 1.2.2
+  resolvedDependencies:
+  - name: com.reown.core
+    version: 1.2.2
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.core.crypto
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  keywords:
+  - reown
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749897106630000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: c7945fa2b1e2afcd3a2dd976341fea7727148e68
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
+- packageId: com.reown.sign.nethereum@1.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.2
+  source: 1
+  resolvedPath: E:\Unity Demos\Forbidden Entrance Demo\Forbidden Entrance 2D\Library\PackageCache\com.reown.sign.nethereum@bc7679a633fb
+  assetPath: Packages/com.reown.sign.nethereum
+  name: com.reown.sign.nethereum
+  displayName: Reown.Sign.Nethereum
+  author:
+    name: Reown
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.reown.sign
+    version: 1.2.2
+  - name: com.nethereum.unity
+    version: 4.26.0
+  resolvedDependencies:
+  - name: com.reown.sign
+    version: 1.2.2
+  - name: com.reown.core
+    version: 1.2.2
+  - name: com.reown.core.common
+    version: 1.2.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.reown.core.network
+    version: 1.2.2
+  - name: com.reown.core.storage
+    version: 1.2.2
+  - name: com.reown.core.crypto
+    version: 1.2.2
+  - name: com.reown.unity.dependencies
+    version: 1.2.2
+  - name: com.nethereum.unity
+    version: 4.29.0
+  keywords:
+  - reown
+  - walletconnect
+  registry:
+    id: scoped:project:package.openupm.com
+    name: package.openupm.com
+    url: https://package.openupm.com
+    scopes:
+    - com.nethereum.unity
+    - com.reown.appkit.unity
+    - com.reown
+    - com.reown.core
+    - com.reown.core.common
+    - com.reown.core.crypto
+    - com.reown.core.network
+    - com.reown.core.storage
+    - com.reown.sign
+    - com.reown.sign.nethereum
+    - com.reown.sign.nethereum.unity
+    - com.reown.sign.unity
+    - com.reown.unity.dependencies
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638749897545460000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: bc7679a633fb19d34998927933cb2fb1519700b0
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.3.0a1
 m_BuiltInPackagesHash: a0ab9e01b6f23ce5e8bb428499e126824fc8c4e0

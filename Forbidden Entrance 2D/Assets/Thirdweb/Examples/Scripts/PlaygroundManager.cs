@@ -3,7 +3,6 @@ using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Thirdweb.Unity.Examples
 {
@@ -159,7 +158,7 @@ namespace Thirdweb.Unity.Examples
                     return new WalletOptions(provider: WalletProvider.EcosystemWallet, chainId: ActiveChainId, ecosystemWalletOptions: ecosystemWalletOptions);
                 case WalletProvider.WalletConnectWallet:
                     var externalWalletProvider =
-                        UnityEngine.Application.platform == RuntimePlatform.WebGLPlayer && WebglForceMetamaskExtension ? WalletProvider.MetaMaskWallet : WalletProvider.WalletConnectWallet;
+                        Application.platform == RuntimePlatform.WebGLPlayer && WebglForceMetamaskExtension ? WalletProvider.MetaMaskWallet : WalletProvider.WalletConnectWallet;
                     return new WalletOptions(provider: externalWalletProvider, chainId: ActiveChainId);
                 default:
                     throw new System.NotImplementedException("Wallet provider not implemented for this example.");
@@ -348,9 +347,9 @@ namespace Thirdweb.Unity.Examples
                     Log(panel.LogText, $"NFT: {JsonConvert.SerializeObject(nft.Metadata)}");
                     var sprite = await nft.GetNFTSprite(client: ThirdwebManager.Instance.Client);
                     // spawn image for 3s
-                    var image = new GameObject("NFT Image", typeof(RectTransform), typeof(CanvasRenderer), typeof(UnityEngine.UI.Image));
+                    var image = new GameObject("NFT Image", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
                     image.transform.SetParent(panel.Panel.transform, false);
-                    image.GetComponent<UnityEngine.UI.Image>().sprite = sprite;
+                    image.GetComponent<Image>().sprite = sprite;
                     Destroy(image, 3f);
                 }
                 catch (System.Exception e)

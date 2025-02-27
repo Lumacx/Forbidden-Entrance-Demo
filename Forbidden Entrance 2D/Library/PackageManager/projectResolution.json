@@ -9,6 +9,26 @@
     "E:\\Unity Files\\6000.0.35f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.nethereum.unity@4.29.0": {
+      "name": "com.nethereum.unity",
+      "displayName": "Nethereum",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.nethereum.unity@60d92e086c7a",
+      "fingerprint": "60d92e086c7ab3351f0aef6a03415d550e0e0769",
+      "editorCompatibility": "2018.1.0a1",
+      "version": "4.29.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.appkit.unity@1.2.2": {
+      "name": "com.reown.appkit.unity",
+      "displayName": "Reown.AppKit.Unity",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.appkit.unity@bb6d3ee17c09",
+      "fingerprint": "bb6d3ee17c09086c149653074c06df460673e2a8",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.behavior@1.0.8": {
       "name": "com.unity.behavior",
       "displayName": "Behavior",
@@ -39,6 +59,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.connect.share@4.2.3": {
+      "name": "com.unity.connect.share",
+      "displayName": "WebGL Publisher",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.connect.share@2f75d100c2a4",
+      "fingerprint": "2f75d100c2a4b2dde614abc1b56dc52f96a7ed91",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "4.2.3",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.feature.2d@2.0.1": {
       "name": "com.unity.feature.2d",
       "displayName": "2D",
@@ -48,13 +78,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.ide.rider@3.0.31": {
+    "com.unity.ide.rider@3.0.34": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.ide.rider@7921be93db40",
-      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
-      "editorCompatibility": "2019.2.6f1",
-      "version": "3.0.31",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.ide.rider@ecbf706690e5",
+      "fingerprint": "ecbf706690e5ce42dc165ddd8e5754acda3dc6b9",
+      "editorCompatibility": "2019.4.6f1",
+      "version": "3.0.34",
       "source": "registry",
       "testable": false
     },
@@ -118,23 +148,23 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.test-framework@1.4.5": {
+    "com.unity.test-framework@1.4.6": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.test-framework@0a21eb82d95c",
-      "fingerprint": "0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8",
-      "editorCompatibility": "2019.4.0a10",
-      "version": "1.4.5",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.test-framework@5ac417e07314",
+      "fingerprint": "5ac417e07314c8f6afba8109738c32b82d391e68",
+      "editorCompatibility": "2019.4.1f1",
+      "version": "1.4.6",
       "source": "registry",
       "testable": false
     },
-    "com.unity.timeline@1.8.7": {
+    "com.unity.timeline@1.8.8": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
-      "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "1.8.7",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
+      "fingerprint": "fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.8",
       "source": "registry",
       "testable": false
     },
@@ -570,6 +600,26 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.editorcoroutines@1.0.0": {
+      "name": "com.unity.editorcoroutines",
+      "displayName": "Editor Coroutines",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.editorcoroutines@7d48783e7b8c",
+      "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
+      "editorCompatibility": "2018.1.0a1",
+      "version": "1.0.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.settings-manager@2.0.1": {
+      "name": "com.unity.settings-manager",
+      "displayName": "Settings Manager",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.settings-manager@56a930affa1e",
+      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.0.1",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.splines@2.7.2": {
       "name": "com.unity.splines",
       "displayName": "Splines",
@@ -607,6 +657,56 @@
       "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
       "editorCompatibility": "2018.4.0a1",
       "version": "3.2.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.sign.nethereum.unity@1.2.2": {
+      "name": "com.reown.sign.nethereum.unity",
+      "displayName": "Reown.Sign.Nethereum.Unity",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.sign.nethereum.unity@a32b9fe1a9e2",
+      "fingerprint": "a32b9fe1a9e2b59f2fcf05ed68b2d53eeb9ec23b",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.sign.unity@1.2.2": {
+      "name": "com.reown.sign.unity",
+      "displayName": "Reown.Sign.Unity",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.sign.unity@b6ad143a926d",
+      "fingerprint": "b6ad143a926d7eb813d2b0f6bc29dfe45f626116",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.core@1.2.2": {
+      "name": "com.reown.core",
+      "displayName": "Reown.Core",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.core@3064956ba6f7",
+      "fingerprint": "3064956ba6f7a1ee83fdd59f16089c04fb9e0035",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.unity.dependencies@1.2.2": {
+      "name": "com.reown.unity.dependencies",
+      "displayName": "Reown.Unity.Dependencies",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.unity.dependencies@2b729743b8e8",
+      "fingerprint": "2b729743b8e895979a8fe1b34155efda41f13f3a",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.vectorgraphics@2.0.0-preview.24": {
+      "name": "com.unity.vectorgraphics",
+      "displayName": "Vector Graphics",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.vectorgraphics@654a957a65c7",
+      "fingerprint": "654a957a65c702b669c4241c866201d5fc01da2f",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.0-preview.24",
       "source": "registry",
       "testable": false
     },
@@ -670,13 +770,63 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.settings-manager@2.0.1": {
-      "name": "com.unity.settings-manager",
-      "displayName": "Settings Manager",
-      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.unity.settings-manager@56a930affa1e",
-      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
-      "editorCompatibility": "2018.4.0a1",
-      "version": "2.0.1",
+    "com.reown.core.common@1.2.2": {
+      "name": "com.reown.core.common",
+      "displayName": "Reown.Core.Common",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.core.common@754d92867862",
+      "fingerprint": "754d9286786242dd6d179f83dd573d02fb43a469",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.core.network@1.2.2": {
+      "name": "com.reown.core.network",
+      "displayName": "Reown.Core.Network",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.core.network@1d7cfadaf1a5",
+      "fingerprint": "1d7cfadaf1a5e04f4014452d4543a61dcde25c39",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.core.storage@1.2.2": {
+      "name": "com.reown.core.storage",
+      "displayName": "Reown.Core.Storage",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.core.storage@805dc98dc48e",
+      "fingerprint": "805dc98dc48e60bd11d822273a60d60cf3d2ec56",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.core.crypto@1.2.2": {
+      "name": "com.reown.core.crypto",
+      "displayName": "Reown.Core.Crypto",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.core.crypto@60257c4ed048",
+      "fingerprint": "60257c4ed04866ad83ccab5c6f7994c7e95583e4",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.sign@1.2.2": {
+      "name": "com.reown.sign",
+      "displayName": "Reown.Sign",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.sign@c7945fa2b1e2",
+      "fingerprint": "c7945fa2b1e2afcd3a2dd976341fea7727148e68",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.reown.sign.nethereum@1.2.2": {
+      "name": "com.reown.sign.nethereum",
+      "displayName": "Reown.Sign.Nethereum",
+      "resolvedPath": "E:\\Unity Demos\\Forbidden Entrance Demo\\Forbidden Entrance 2D\\Library\\PackageCache\\com.reown.sign.nethereum@bc7679a633fb",
+      "fingerprint": "bc7679a633fb19d34998927933cb2fb1519700b0",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.2.2",
       "source": "registry",
       "testable": false
     }

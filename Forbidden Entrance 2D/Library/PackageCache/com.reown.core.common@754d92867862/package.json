@@ -1,0 +1,17 @@
+{
+  "name": "com.reown.core.common",
+  "version": "1.2.2",
+  "displayName": "Reown.Core.Common",
+  "unity": "2022.3",
+  "author": "Reown",
+  "keywords": [
+    "reown"
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
+  "_fingerprint": "754d9286786242dd6d179f83dd573d02fb43a469"
+}

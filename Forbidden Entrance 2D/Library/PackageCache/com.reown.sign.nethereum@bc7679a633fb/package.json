@@ -1,0 +1,19 @@
+{
+  "name": "com.reown.sign.nethereum",
+  "version": "1.2.2",
+  "displayName": "Reown.Sign.Nethereum",
+  "unity": "2022.3",
+  "author": "Reown",
+  "keywords": [
+    "reown",
+    "walletconnect"
+  ],
+  "dependencies": {
+    "com.reown.sign": "1.2.2",
+    "com.nethereum.unity": "4.26.0"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
+  "_fingerprint": "bc7679a633fb19d34998927933cb2fb1519700b0"
+}

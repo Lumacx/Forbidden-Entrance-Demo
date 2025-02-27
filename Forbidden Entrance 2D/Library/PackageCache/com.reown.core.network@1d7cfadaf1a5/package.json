@@ -1,0 +1,17 @@
+{
+  "name": "com.reown.core.network",
+  "version": "1.2.2",
+  "displayName": "Reown.Core.Network",
+  "unity": "2022.3",
+  "author": "Reown",
+  "keywords": [
+    "reown"
+  ],
+  "dependencies": {
+    "com.reown.core.common": "1.2.2"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
+  "_fingerprint": "1d7cfadaf1a5e04f4014452d4543a61dcde25c39"
+}

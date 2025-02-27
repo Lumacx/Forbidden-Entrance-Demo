@@ -208,7 +208,7 @@ namespace Thirdweb.Unity
         protected bool AutoConnectLastWallet { get; set; } = false;
 
         [field: SerializeField]
-        protected ulong[] SupportedChains { get; set; } = new ulong[] { 421614 };
+        protected ulong[] SupportedChains { get; set; } = new ulong[] { 421614 };//Arbitrum
 
         [field: SerializeField]
         protected string[] IncludedWalletIds { get; set; } = null;
@@ -225,7 +225,7 @@ namespace Thirdweb.Unity
 
         public static ThirdwebManagerBase Instance { get; protected set; }
 
-        public static readonly string THIRDWEB_UNITY_SDK_VERSION = "5.17.1";
+        public static readonly string THIRDWEB_UNITY_SDK_VERSION = "5.18.1";
 
         protected const string THIRDWEB_AUTO_CONNECT_OPTIONS_KEY = "ThirdwebAutoConnectOptions";
 

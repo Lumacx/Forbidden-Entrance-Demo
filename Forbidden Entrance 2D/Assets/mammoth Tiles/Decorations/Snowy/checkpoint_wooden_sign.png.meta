@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      checkpoint_wooden_sign_0: -3083493596661942220
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

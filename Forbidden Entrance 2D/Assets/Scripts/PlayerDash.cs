@@ -47,6 +47,7 @@ public class PlayerDash : MonoBehaviour
             // Reset the key released flag to prevent immediate re-triggering.
             _dashKeyReleased = false;
             StartCoroutine(Dash());
+            SFX_Manager.Play("swoosh");
         }
     }
 

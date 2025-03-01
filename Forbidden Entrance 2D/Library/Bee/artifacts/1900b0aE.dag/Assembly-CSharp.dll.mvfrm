@@ -113,10 +113,6 @@ Rendering
 Universal
 RenderQueueType
 RenderObjects
-SVGImageEditor
-
-SVGImage
-
 AssetModificationProcessor
 
 Sysroot

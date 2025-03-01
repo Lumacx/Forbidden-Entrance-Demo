@@ -28,6 +28,7 @@ public class Checkpoint : MonoBehaviour
             {
                 gameController.UpdateCheckpoint(respawnPoint.position);
                 spriteRenderer.sprite = active;
+                SFX_Manager.Play("powerup");
                 coll.enabled = false;
                 UnityEngine.Debug.Log("Player hit checkpoint. New respawn point: " + respawnPoint.position);
             }

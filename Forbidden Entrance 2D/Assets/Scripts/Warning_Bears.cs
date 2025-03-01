@@ -25,6 +25,7 @@ public class Warning_BearSeason : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             ShowWarning("Beware: Bear Season!");
+            SFX_Manager.Play("swoosh");
         }
     }
 

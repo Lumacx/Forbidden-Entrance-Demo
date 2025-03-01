@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
 
     [Header("----Audio Clip----")]
- public AudioClip background;
+public AudioClip background;
 public AudioClip death;
 public AudioClip checkpoint;
 public AudioClip portalIn;

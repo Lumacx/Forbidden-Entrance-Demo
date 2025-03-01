@@ -98,7 +98,7 @@ public class MovingPlatform : MonoBehaviour
         {
             playerMovement.isOnPlatform = true;
             playerMovement.platformRB = rb;
-            playerRb.gravityScale = playerRb.gravityScale * 5;
+            playerRb.gravityScale = playerRb.gravityScale * 2;
         }
     }
 
@@ -107,7 +107,7 @@ public class MovingPlatform : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerMovement.isOnPlatform = false;
-            playerRb.gravityScale = playerRb.gravityScale / 5;
+            playerRb.gravityScale = playerRb.gravityScale / 2;
         }
     }
 

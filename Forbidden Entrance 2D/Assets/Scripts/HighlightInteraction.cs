@@ -35,6 +35,7 @@ public class HighlightInteraction : MonoBehaviour
             if (border != null)
             {
                 border.SetActive(true);
+                SFX_Manager.Play("swoosh");
             }
         }
     }

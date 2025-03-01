@@ -11,6 +11,7 @@ public class Gem : MonoBehaviour, iItem
         public void Collect() 
         {
         OnGemCollect.Invoke(worth);
+        SFX_Manager.Play("Gem");
         Destroy(gameObject);
 
         }      

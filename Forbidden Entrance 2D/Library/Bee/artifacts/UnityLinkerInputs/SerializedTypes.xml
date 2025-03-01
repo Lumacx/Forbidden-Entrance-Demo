@@ -1,17 +1,6 @@
 <linker>
-	<assembly fullname="Reown.AppKit.Unity">
-		<type fullname="Reown.AppKit.Unity.Components.AspectRatio/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.Button/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.DeepLinkView/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.IconLink/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.Link/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.ModalHeader/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.QrCode/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.QrCodeView/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.Snackbar/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.Tabbed/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.TextInput/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="Reown.AppKit.Unity.Components.WebAppView/UxmlFactory" preserve="nothing" serialized="true"/>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="SFXGroup" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Unity.2D.Tilemap.Extras">
 		<type fullname="UnityEngine.RuleTile/TilingRule" preserve="nothing" serialized="true"/>
@@ -35,6 +24,8 @@
 		<type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputSettings/iOSSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.iOS.PrivacyDataUsage" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.InputSystem.PlayerInput/ActionEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.InputSystem.PlayerInput/DeviceLostEvent" preserve="nothing" serialized="true"/>
@@ -152,12 +143,6 @@
 		<type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true"/>
 	</assembly>
-	<assembly fullname="UnityEngine.TextCoreTextEngineModule">
-		<type fullname="UnityEngine.TextCore.Text.Character" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.TextCore.Text.FontAssetCreationEditorSettings" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.TextCore.Text.FontFeatureTable" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.TextCore.Text.FontWeightPair" preserve="nothing" serialized="true"/>
-	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true"/>
@@ -172,29 +157,6 @@
 		<type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true"/>
-	</assembly>
-	<assembly fullname="UnityEngine.UIElementsModule">
-		<type fullname="UnityEngine.UIElements.Image/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.Image/UxmlSerializedData" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.Label/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.Label/UxmlSerializedData" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.ScrollView/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.ScrollView/UxmlSerializedData" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.StyleComplexSelector" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.StyleProperty" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.StyleRule" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.StyleSelector" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.StyleSelectorPart" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.StyleSheets.Dimension" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.StyleValueHandle" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.TextField/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.TextField/UxmlSerializedData" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.UxmlNamespaceDefinition" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.UxmlRootElementFactory" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.VectorImageVertex" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.VisualElement/UxmlFactory" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.VisualElement/UxmlSerializedData" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UIElements.VisualElementAsset" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="WalletConnectSharp.Core">
 		<type fullname="WalletConnectSharp.Core.Metadata" preserve="nothing" serialized="true"/>

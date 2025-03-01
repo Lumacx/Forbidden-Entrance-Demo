@@ -25,6 +25,7 @@ public class Warning_Dash : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             ShowWarning("Warning: Use E to Dash!");
+            SFX_Manager.Play("swoosh");
         }
     }
 

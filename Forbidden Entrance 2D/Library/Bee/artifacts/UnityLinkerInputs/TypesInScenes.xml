@@ -13,41 +13,23 @@
 		<type fullname="itemsProgress" preserve="nothing"/>
 		<type fullname="LevelLoader" preserve="nothing"/>
 		<type fullname="MovingPlatform" preserve="nothing"/>
+		<type fullname="MusicManager" preserve="nothing"/>
 		<type fullname="ParallaxBackground" preserve="nothing"/>
 		<type fullname="ParallaxCamera" preserve="nothing"/>
 		<type fullname="ParallaxLayer" preserve="nothing"/>
 		<type fullname="PlayerDash" preserve="nothing"/>
 		<type fullname="PlayerMovement" preserve="nothing"/>
+		<type fullname="Portal_Controller" preserve="nothing"/>
+		<type fullname="SFX_Library" preserve="nothing"/>
+		<type fullname="SFX_Manager" preserve="nothing"/>
+		<type fullname="Timer" preserve="nothing"/>
 		<type fullname="Tip_Teleport" preserve="nothing"/>
+		<type fullname="VidPlayer" preserve="nothing"/>
 		<type fullname="Warning_BearSeason" preserve="nothing"/>
 		<type fullname="Warning_Dash" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Thirdweb.Plugins">
 		<type fullname="WalletConnectUnity.Core.ProjectConfiguration" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.Modal.Views.ApprovalView" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.Modal.Views.ApprovalViewTabsController" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.Modal.Views.ConnectView" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.Modal.Views.DeepLinkPage" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.Modal.Views.QRCodePage" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.Modal.Views.WalletSearchView" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.Modal.Views.WebAppPage" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.Modal.WalletConnectModal" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.OrientationTracker" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCButton" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCGridLayoutGroup" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCInputField" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCListSelect" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCLoadingAnimator" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCModal" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCModalHeader" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCSnackbar" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCTabButton" preserve="nothing"/>
-		<type fullname="WalletConnectUnity.UI.WCTabsBar" preserve="nothing"/>
-		<type fullname="WebGLSupport.WebGLInput" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Thirdweb.Unity">
-		<type fullname="Thirdweb.Unity.DefaultOTPVerifyModal" preserve="nothing"/>
-		<type fullname="Thirdweb.Unity.ThirdwebManager" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.2D.Animation.Runtime">
 		<type fullname="UnityEngine.U2D.Animation.BufferManager" preserve="nothing"/>
@@ -159,7 +141,6 @@
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
-		<type fullname="TMPro.TMP_InputField" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
@@ -232,11 +213,7 @@
 		<type fullname="UnityEngine.Tilemaps.TilemapRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.TrailRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
-		<type fullname="UnityEngine.Video.VideoClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Video.VideoPlayer" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="UnityEngine.TextCoreTextEngineModule">
-		<type fullname="UnityEngine.TextCore.Text.FontAsset" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.TilemapModule">
 		<type fullname="UnityEngine.Tilemaps.Tile" preserve="nothing"/>
@@ -244,7 +221,6 @@
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
 		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.AspectRatioFitter" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
@@ -253,18 +229,11 @@
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.RectMask2D" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Slider" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Toggle" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="UnityEngine.UIElementsModule">
-		<type fullname="UnityEngine.UIElements.StyleSheet" preserve="nothing"/>
-		<type fullname="UnityEngine.UIElements.VectorImage" preserve="nothing"/>
-		<type fullname="UnityEngine.UIElements.VisualTreeAsset" preserve="nothing"/>
 	</assembly>
 </linker>

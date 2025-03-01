@@ -25,6 +25,7 @@ public class Tip_Teleport : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             ShowWarning("Tip: Full Gems? Use Q to enter Teleport!");
+            SFX_Manager.Play("swoosh");
         }
     }
 

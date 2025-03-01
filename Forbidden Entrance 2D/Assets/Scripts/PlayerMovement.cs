@@ -32,19 +32,26 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D PlayerRb;
     private float horizontalInput;
-    private bool facingRight = true;
+    
+    //private bool facingRight = true;
+    
     public float Direction => horizontalInput;  // Exposed for use in dash logic
     private PlayerDash _playerDash;    // Reference to the dash component
 
     private Animator animator;
 
+    // NEW: SpriteRenderer for flipping the sprite
+    private SpriteRenderer spriteRenderer;
+
     public bool isOnPlatform;
     public Rigidbody2D platformRB;
-    
+
     void Awake()
     {
         _playerDash = GetComponent<PlayerDash>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Cache the SpriteRenderer component
     }
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -53,9 +60,7 @@ public class PlayerMovement : MonoBehaviour
         PlayerRb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
-
    
-    
     // Update is called once per frame
     void Update()
     {
@@ -167,18 +172,32 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Flip the character's facing direction based on horizontal input
+ //   void Flip(float horizontal)
+  //  {
+   //     if (horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
+    //    {
+     //       facingRight = !facingRight;
+      //      Vector3 theScale = transform.localScale;
+      //      theScale.x *= -1;
+      //      transform.localScale = theScale;
+      //  }
+   // }
+    
+    // Flip the character using SpriteRenderer.flipX based on horizontal input.
     void Flip(float horizontal)
     {
-        if (horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
+        if (spriteRenderer != null)
         {
-            facingRight = !facingRight;
-            Vector3 theScale = transform.localScale;
-            theScale.x *= -1;
-            transform.localScale = theScale;
+            if (horizontal > 0)
+            {
+                spriteRenderer.flipX = false;
+                //facingRight = true;
+            }
+            else if (horizontal < 0)
+            {
+                spriteRenderer.flipX = true;
+                //facingRight = false;
+            }
         }
     }
-
-
-   
-    
 }

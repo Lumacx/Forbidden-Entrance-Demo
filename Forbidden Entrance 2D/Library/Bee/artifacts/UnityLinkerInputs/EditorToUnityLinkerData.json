@@ -49,11 +49,9 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -77,11 +75,9 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -133,11 +129,9 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -163,16 +157,21 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MusicManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "NamedObject",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -189,11 +188,9 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -240,6 +237,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Portal_Controller",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "ResourceManager",
             "fullManagedTypeName": "",
@@ -251,6 +255,20 @@
             "nativeClass": "RuntimeInitializeOnLoadManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SFX_Library",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SFX_Manager",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -268,16 +286,9 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Thirdweb.Unity.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Thirdweb.Unity.DefaultOTPVerifyModal",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Unity.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Thirdweb.Unity.ThirdwebManager",
+            "fullManagedTypeName": "Timer",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -299,13 +310,6 @@
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TMPro.TMP_FontAsset",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TMP_InputField",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -378,11 +382,9 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -413,11 +415,9 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -471,11 +471,9 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -485,11 +483,9 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -499,11 +495,9 @@
             "fullManagedTypeName": "UnityEngine.AnimatorOverrideController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -513,11 +507,9 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -527,11 +519,9 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -541,11 +531,9 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -555,11 +543,9 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -569,11 +555,9 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -583,11 +567,9 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -597,11 +579,9 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -611,11 +591,10 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/5 LP End.unity"
             ]
         },
         {
@@ -624,11 +603,9 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -638,11 +615,9 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -652,11 +627,9 @@
             "fullManagedTypeName": "UnityEngine.CanvasGroup",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -666,11 +639,9 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -691,8 +662,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -701,11 +671,10 @@
             "fullManagedTypeName": "UnityEngine.Collider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/5 LP End.unity"
             ]
         },
         {
@@ -714,11 +683,9 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -737,7 +704,6 @@
             "fullManagedTypeName": "UnityEngine.ComputeShader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity"
             ]
@@ -748,7 +714,6 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -781,8 +746,8 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
-                "Assets/Scenes/1 Level - Snow 1.0.unity"
+                "Assets/Scenes/1 Level - Snow 1.0.unity",
+                "Assets/Scenes/5 LP End.unity"
             ]
         },
         {
@@ -791,11 +756,9 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -807,8 +770,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -819,8 +781,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -878,11 +839,9 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -892,11 +851,9 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -906,8 +863,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -916,8 +872,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -926,8 +881,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -936,11 +890,9 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -950,11 +902,9 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -964,11 +914,9 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -998,8 +946,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -1010,8 +957,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -1027,11 +973,9 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1041,11 +985,9 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1566,11 +1508,9 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1582,8 +1522,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -1599,11 +1538,9 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1613,11 +1550,9 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1627,11 +1562,9 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1641,11 +1574,9 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1655,20 +1586,11 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.TextCoreTextEngineModule.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.TextCore.Text.FontAsset",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -1676,11 +1598,9 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1690,11 +1610,9 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1713,8 +1631,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -1725,8 +1642,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -1737,8 +1653,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -1749,8 +1664,7 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
         },
         {
@@ -1759,11 +1673,9 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/0 LP Start.unity",
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
                 "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity",
                 "Assets/Scenes/5 LP End.unity"
             ]
         },
@@ -1785,13 +1697,6 @@
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.U2D.Animation.DeformationManagerUpdater",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.AspectRatioFitter",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1854,20 +1759,6 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.RawImage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.RectMask2D",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.Scrollbar",
             "moduleName": "",
             "usedInScenes": []
@@ -1908,37 +1799,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UIElements.StyleSheet",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UIElements.VectorImage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UIElementsModule.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UIElements.VisualTreeAsset",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "VideoClip",
-            "fullManagedTypeName": "UnityEngine.Video.VideoClip",
-            "moduleName": "Video",
-            "usedInScenes": [
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
-            ]
-        },
-        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "VideoPlayer",
             "fullManagedTypeName": "UnityEngine.Video.VideoPlayer",
@@ -1946,147 +1806,20 @@
             "usedInScenes": [
                 "Assets/Scenes/1 Level - Snow 1.0.unity",
                 "Assets/Scenes/2 Level - Forest 1.0.unity",
-                "Assets/Scenes/3 Level - Tower 1.0.unity",
-                "Assets/Scenes/4 Level - Tower Boss.unity"
+                "Assets/Scenes/3 Level - Tower 1.0.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VidPlayer",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Thirdweb.Plugins.dll",
             "nativeClass": "",
             "fullManagedTypeName": "WalletConnectUnity.Core.ProjectConfiguration",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.Modal.Views.ApprovalView",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.Modal.Views.ApprovalViewTabsController",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.Modal.Views.ConnectView",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.Modal.Views.DeepLinkPage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.Modal.Views.QRCodePage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.Modal.Views.WalletSearchView",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.Modal.Views.WebAppPage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.Modal.WalletConnectModal",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.OrientationTracker",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCButton",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCGridLayoutGroup",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCInputField",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCListSelect",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCLoadingAnimator",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCModal",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCModalHeader",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCSnackbar",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCTabButton",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WalletConnectUnity.UI.WCTabsBar",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -2101,13 +1834,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Warning_Dash",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Thirdweb.Plugins.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "WebGLSupport.WebGLInput",
             "moduleName": "",
             "usedInScenes": []
         }
@@ -4781,10 +4507,6 @@
     "forceIncludeModules": [],
     "forceExcludeModules": [
         "AMD",
-        "AR",
-        "ClusterInput",
-        "ClusterRenderer",
-        "NVIDIA",
-        "VirtualTexturing"
+        "NVIDIA"
     ]
 }

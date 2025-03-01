@@ -30,7 +30,7 @@ public class EnemyMovement : MonoBehaviour
         {
             // Determine direction (1 if player is to the right, -1 if to the left)
             float direction = Mathf.Sign(player.position.x - transform.position.x);
-
+            SFX_Manager.Play("Bear");
 
             // Flip the enemy by modifying localScale.x
             Vector3 scale = transform.localScale;

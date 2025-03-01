@@ -7,6 +7,8 @@ using Thirdweb; // Ensure Thirdweb SDK is installed and this namespace is availa
 using Thirdweb.Unity;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
+using System.Numerics;
+
 
 public class StartManager : MonoBehaviour
 {
@@ -21,12 +23,14 @@ public class StartManager : MonoBehaviour
     private static extern string GetParameter(string paramName);
 
     private string walletAddressFromURL;
+    private string connectedWalletAddress; // Store the connected wallet address
+
 
     void Start()
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
         walletAddressFromURL = GetParameter("Wallet ID"); // Expecting URL like: index.html?wallet=0x1234...
-        Debug.Log("Wallet Address from URL: " + walletAddressFromURL);
+        UnityEngine.Debug.Log("Wallet Address from URL: " + walletAddressFromURL);
 #else
         walletAddressFromURL = "0xDefaultTestAddress"; // Use a default for testing in the Editor
         UnityEngine.Debug.Log("Simulated Wallet Address: " + walletAddressFromURL);
@@ -49,12 +53,45 @@ public class StartManager : MonoBehaviour
         // Update UI with the retrieved address
         addressTxt.text = address;
         UnityEngine.Debug.Log("Connected wallet: " + address);
+
+        connected.SetActive(true);
+        disconnected.SetActive(false);
+
+        await CheckBalance();
+
     }
 
     public async Task CheckBalance()
     {
+        var contract = await ThirdwebManager.Instance.GetContract(
+            address: "0x20D478cB87BFEB23CbEf5aeC516341ab7B256904",
+            chainId: 123420111,
+            abi: "optional-abi"
+        );
 
+        // Assuming token id is 1. Using the connected wallet address.
+        BigInteger balanceBigInt = await contract.ERC1155_BalanceOf(connectedWalletAddress, 1);
+
+        // Convert BigInteger to string for parsing to a float
+        string balance = balanceBigInt.ToString();
+        float balanceFloat = float.Parse(balance);
+
+        if (balanceFloat == 0)
+        {
+            ownsNftTxt.text = "First Time Player, Welcome!";
+            enterBtn.SetActive(true);
+        }
+        else
+        {
+            ownsNftTxt.text = "Welcome Back Mammoth!";
+            enterBtn.SetActive(true);
+        }
     }
 
+    public void EnterGame ()
+    {
+        SceneManager.LoadScene("1 Level - Snow 1.0");
+
+    }
 
 }

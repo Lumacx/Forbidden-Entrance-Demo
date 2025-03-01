@@ -9,6 +9,7 @@ TagManager:
   - Portal
   - Obstacle
   - Enemy
+  - Teleport
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Wall
   - Glow
   - Portal
-  - 
+  - Teleport
   - 
   - 
   - 
@@ -57,6 +58,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3181822317
+    locked: 0
+  - name: Teleport
+    uniqueID: 3269520027
     locked: 0
   - name: Foreground
     uniqueID: 5629091

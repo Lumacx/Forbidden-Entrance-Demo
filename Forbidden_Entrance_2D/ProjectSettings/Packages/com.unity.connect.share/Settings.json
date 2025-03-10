@@ -1,0 +1,26 @@
+{
+    "m_Dictionary": {
+        "m_DictionaryValues": [
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "firstTime",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "autoPublish",
+                "value": "{\"m_Value\":true}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "createDefaultBuildsFolder",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "buildOutputDirList",
+                "value": "{\"m_Value\":\"E:/Unity_Demos/Forbidden_Entrance_Demo/Forbidden_Entrance_2D/WebFV;E:/Unity_Demos/Forbidden_Entrance_Demo/Forbidden_Entrance_2D/Build_FV2;E:/Unity_Demos/Forbidden_Entrance_Demo/Forbidden_Entrance_2D/Build_Final;E:/Unity_Demos/Forbidden_Entrance_Demo/Forbidden_Entrance_2D/WebSmallv2;E:/Unity_Demos/Forbidden_Entrance_Demo/Forbidden_Entrance_2D/WebSmall;E:/Unity_Demos/Forbidden_Entrance_Demo/Forbidden_Entrance_2D/WebBuild;;;;\"}"
+            }
+        ]
+    }
+}
